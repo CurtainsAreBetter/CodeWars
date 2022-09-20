@@ -1,9 +1,8 @@
 var capitals = function (word) {
-	const out = [];
-  word.split('').forEach((v, i) => {
+  return word.split('').reduce((arr, v, i) => {
     if (v.match(/[A-Z]/)) {
-        out.push(i);
-        }
-  });
-  return out;
+      arr.push(i);
+      return arr;
+    } else return arr;
+  }, []);
 };
