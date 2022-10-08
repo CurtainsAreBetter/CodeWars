@@ -1,3 +1,4 @@
+// Yeesh, I really should have just used a reduce.
 // https://www.codewars.com/kata/550f22f4d758534c1100025a
 // Returns array of movements
 // movements contain the source index, where it started, and where it ends
